@@ -1,11 +1,11 @@
   ---  
+ 
+# Terraform AWS VPC Module 
 
-# Terraform AWS VPC Module
+This Terraform configuration sets up an AWS Virtual Private Cloud (VPC) with public and private subnets. It utilizes a module to manage VPC resources across different environments. 
 
-This Terraform configuration sets up an AWS Virtual Private Cloud (VPC) with public and private subnets. It utilizes a module to manage VPC resources across different environments.
-
-## Files 
-
+## Files  
+ 
 - **main.tf**: Defines the AWS provider and resources for creating the VPC and subnets.
 - **variables.tf**: Defines input variables used in the configuration.
 - **dev-vpc.tf**: Configuration for the development environment using the `tf-vpc` module.
