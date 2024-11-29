@@ -38,5 +38,3 @@ This Terraform configuration sets up an AWS Virtual Private Cloud (VPC) with pub
 
 - Ensure proper AWS IAM permissions are set for the AWS credentials used with Terraform.
 - This configuration assumes AWS region `us-east-1`. Modify `provider "aws"` block in `main.tf` to change the region if necessary.
-
----
