@@ -12,9 +12,9 @@ This Terraform configuration sets up an AWS Virtual Private Cloud (VPC) with pub
 
 ## Usage
 
-1. **Set up AWS Provider**: Ensure you have AWS credentials configured either through environment variables or AWS CLI configuration.
+1. **Set up AWS Provider**: Ensure you have AWS credentials configured either through environment variables or AWS CLI configuration. 
 
-2. **Adjust Variables (if necessary)**: Modify `variables.tf` to customize CIDR blocks or other parameters as needed.
+2. **Adjust Variables (if necessary)**: Modify `variables.tf` to customize CIDR blocks or other parameters as needed. 
 
 3. **Initialize Terraform**: Run `terraform init` in the directory where these files are located to initialize Terraform and download necessary providers.
 
