@@ -21,7 +21,6 @@ This Terraform configuration sets up an AWS Virtual Private Cloud (VPC) with pub
 4. **Review Plan**: Run `terraform plan` to see the execution plan and ensure it matches your expectations.
 
 5. **Apply Changes**: Run `terraform apply` to apply the configuration and create the AWS resources.
-
 6. **Destroy Resources**: If needed, run `terraform destroy` to destroy the created AWS resources.
 
 ## Modules
