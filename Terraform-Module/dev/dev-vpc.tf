@@ -1,6 +1,6 @@
 module "tf-vpc" {
     source = "../modules"
-    environment = "DEV"
+    environment = "DEV" 
 }
 
 output "vpc-cidr-block" {
