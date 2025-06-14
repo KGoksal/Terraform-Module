@@ -27,9 +27,9 @@ This Terraform configuration sets up an AWS Virtual Private Cloud (VPC) with pub
 
 - **tf-vpc**: A module located in the `../modules` directory is used to encapsulate the VPC creation logic. It accepts an `environment` parameter to distinguish between environments (DEV, PROD).
 
-## Outputs
+## Outputs 
 
-- **vpc-cidr-block**: Outputs the CIDR block of the VPC created by the `tf-vpc` module.
+- **vpc-cidr-block**: Outputs the CIDR block of the VPC created by the `tf-vpc` module. 
 
 ## Notes
 
