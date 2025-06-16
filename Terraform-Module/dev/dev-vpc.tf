@@ -6,3 +6,4 @@ module "tf-vpc" {
 output "vpc-cidr-block" {
     value = module.tf-vpc.vpc_cidr
 } 
+ 
