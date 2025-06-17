@@ -3,7 +3,7 @@ provider "aws" {
 }  
 
 resource "aws_vpc" "module_vpc" { 
-  cidr_block = var.vpc_cidr_block 
+  cidr_block = var.vpc_cidr_block  
   tags = { 
     Name = "terraform-vpc-${var.environment}" 
   }
