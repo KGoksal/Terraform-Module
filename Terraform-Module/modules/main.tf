@@ -11,7 +11,7 @@ resource "aws_vpc" "module_vpc" {
  
 resource "aws_subnet" "public_subnet" {
   cidr_block = var.public_subnet_cidr
-  vpc_id = aws_vpc.module_vpc.id
+  vpc_id = aws_vpc.module_vpc.id 
   tags = {
     Name = "terraform-public-subnet-${var.environment}"
   }
